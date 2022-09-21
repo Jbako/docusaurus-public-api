@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_public_api=self.webpackChunkdocusaurus_public_api||[]).push([[4121],{8070:u=>{u.exports=JSON.parse('[{"label":"bsp","permalink":"/docusaurus-public-api/tags/bsp","count":1}]')}}]);
