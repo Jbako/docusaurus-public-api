@@ -3,28 +3,27 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #406ddd;
+  --ifm-color-primary-dark: #285bd9;
+  --ifm-color-primary-darker: #2555ce;
+  --ifm-color-primary-darkest: #1e46a9;
+  --ifm-color-primary-light: #587fe1;
+  --ifm-color-primary-lighter: #6489e3;
+  --ifm-color-primary-lightest: #89a4ea;
+  --ifm-font-family-base: 'Source Sans Pro';
 }
-
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #8c97a6;
+  --ifm-color-primary-dark: #7b8799;
+  --ifm-color-primary-darker: #728092;
+  --ifm-color-primary-darkest: #5d6979;
+  --ifm-color-primary-light: #9da7b3;
+  --ifm-color-primary-lighter: #a6aeba;
+  --ifm-color-primary-lightest: #c0c6ce;
 }
+
