@@ -57,7 +57,7 @@ const config = {
         title: 'Inicio',
         logo: {
           alt: 'logo',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -67,11 +67,11 @@ const config = {
             label: 'Documentación',
           },
  //         {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -84,40 +84,48 @@ const config = {
                 label: 'Primeros pasos',
                 to: '/primeros-pasos',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: 'Casos de uso',
                 to: '/blog',
               },
+            ],
+          },
+          {
+            title: 'Enlaces',
+            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Bsale Developers',
+                href: 'https://www.bsale.dev',
+              },
+              {
+                label: 'Slack',
+                href: 'https://slack.com/intl/es-cl/help/articles/',
+              },
+              {
+                label: 'Contacto',
+                href: 'https://bsalehelp.zendesk.com/hc/es/requests/new',
+              },
+            ],
+          },
+          {
+            title: 'Más',
+            items: [
+              {
+                label: 'Bsale 🇨🇱',
+                href: 'https://www.bsale.cl',
+              },
+              {
+                label: 'Bsale 🇵🇪',
+                href: 'https://www.bsale.com.pe',
+              },
+              {
+                label: 'Bsale 🇲🇽',
+                href: 'https://www.bsale.com.mx',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Documentation API Bsale. Built with Docusaurus.🦖`,
       },
       prism: {
         theme: lightCodeTheme,

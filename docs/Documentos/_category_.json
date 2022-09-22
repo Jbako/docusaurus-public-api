@@ -2,6 +2,7 @@
   "label": "Documentos",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "title": "Creación y lectura de documentos"
   }
 }

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 24
+sidebar_position: 4
 title: Documentos de terceros
 description: Listar documentos de compras
 slug: /documentos-de-terceros

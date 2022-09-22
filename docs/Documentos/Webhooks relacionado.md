@@ -3,6 +3,8 @@ sidebar_position: 5
 title: Webhooks
 description: Servicio de notificaciones
 slug: /documentos/webhooks
+tags: 
+ - webhooks
 ---
 
 # Webhooks documentos
