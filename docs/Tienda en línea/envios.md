@@ -1,5 +1,4 @@
 ---
-
 title: Envíos
 description: Genera envíos mediante tienda en línea Bsale
 slug: /envíos
@@ -8,7 +7,7 @@ slug: /envíos
 # API Envíos
 
 El equipo de Bsale ha puesto a disposición de la comunidad de desarrolladores endpoints y webhooks para la comunicación con distintos tipos de courriers de envíos. Pudiendo notificar despachos, estados de éstos y obtención de sus detalles.
-Para autenticar las peticiones en todos los endpoints se debe enviar en la cabecera el parámetro `access_token`.
+Para autenticar las peticiones en todos los endpoints se debe enviar en la cabecera el parámetro `access_token`
 
 :::info
 **Url base**
