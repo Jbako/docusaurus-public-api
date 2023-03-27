@@ -78,7 +78,7 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
 | **attribute_values**   | nodo que indica los valores de los atributos del tipo de producto | |
 | **costs**   | nodo que indica el costo de la variante | |
 
-## GET lista de variantes.
+## GET lista de variantes
 - GET `/v1/variants.json` retornará todos todas las variantes.
 
 #### Parámetros
