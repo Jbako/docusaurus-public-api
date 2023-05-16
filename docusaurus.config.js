@@ -83,6 +83,11 @@ const config = {
             label: 'faq',
           },
           {
+            to: '/Changelog',
+            position: 'left',
+            label: 'Changelog',
+          },
+          {
             type: 'docsVersionDropdown',
             position: 'right',
           },
