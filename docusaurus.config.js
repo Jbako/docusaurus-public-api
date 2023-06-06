@@ -161,3 +161,16 @@ const config = {
 };
 
 module.exports = config;
+module.exports = {
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-999X9XX9XX',
+          anonymizeIP: true,
+        },
+      },
+    ],
+  ],
+};
