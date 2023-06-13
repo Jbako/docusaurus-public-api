@@ -51,9 +51,14 @@ const config = {
               label: '🌎 MX',
               banner: "unmaintained"
             }
-          }
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          
+        gtag: {
+          trackingID: 'G-999X9XX9XX',
+          anonymizeIP: true,
+        },
         },
         blog: {
           showReadingTime: false,
@@ -161,16 +166,4 @@ const config = {
 };
 
 module.exports = config;
-module.exports = {
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        gtag: {
-          trackingID: '373196086',
-          anonymizeIP: true,
-        },
-      },
-    ],
-  ],
-};
+
