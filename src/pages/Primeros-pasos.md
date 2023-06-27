@@ -43,7 +43,7 @@ Es importante indicar que este token de acceso es único para cada empresa/usuar
 [epoch converter](https://www.epochconverter.com/)
 - Para procesar los ejemplos, utiliza [Postman](https://www.postman.com/).
 
-:::tip
+:::info
 Ante cualquier duda puedes comunicarte con nosotros ingresando a la comunidad de 
 [slack] (https://bsaledev.slack.com/join/shared_invite/zt-1h1cqt05g-fqnTiREZYN8g47gf~caO5w#/shared-invite/email)
 :::
