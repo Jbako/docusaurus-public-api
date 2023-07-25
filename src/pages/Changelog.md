@@ -1,7 +1,10 @@
 ### Liberaciones disponibles por rango de fecha
 
+## 07/2023
+- POST de documentos y devoluciones retornará error "this office is configured as warehouse" si la sucursal está marcada como bodega 🇨🇱 🇵🇪.
+
 ## 05/2023
-- Respuesta código 200 al enviar SalesId repetido
+- Respuesta código 200 al enviar SalesId repetido.
 
 ## 04/2023
 - Generación de GRE 🇵🇪.
