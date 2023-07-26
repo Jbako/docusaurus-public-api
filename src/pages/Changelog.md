@@ -1,6 +1,9 @@
 ### Liberaciones disponibles por rango de fecha
 
 ## 07/2023
+- PUT re-declarar documentos 🇨🇱.
+
+## 07/2023
 - POST de documentos y devoluciones retornará error "this office is configured as warehouse" si la sucursal está marcada como bodega 🇨🇱 🇵🇪.
 
 ## 05/2023
