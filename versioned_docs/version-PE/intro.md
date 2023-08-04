@@ -18,5 +18,5 @@ Las peticiones son `HTTP REST` por lo que se debe especificar el método que se 
 Un ejemplo en [curl](https://curl.se/) sería:
 
 ```json 
-curl -i -H "access_token: tutokendeacceso" -X GET https://api.bsale.cl/v1/clients.json
+curl -i -H "access_token: tutokendeacceso" -X GET https://api.bsale.com.pe/v1/clients.json
 ```
