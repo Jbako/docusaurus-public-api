@@ -250,3 +250,22 @@ Al realizar una petición `HTTP`, el servicio retornara un JSON con la siguiente
   "state": 0
 }
 ```
+## GET folios disponibles de un tipo de documento
+- GET `/v1/document_types/number_availables.json` Retornará registros de números de folios.
+
+#### Parámetros
+- **codesii**, filtra por el código tributario del tipo de documento (String).
+- **documenttypeid**, filtra por el identificador del tipo de documento (Integer).
+
+#### Ejemplos
+- `GET /v1/document_types/number_availables.json?codesii=33`
+- `GET /v1/document_types/number_availables.json?documenttypeid=1`
+
+```json 
+{
+   "numbers_available": 2574,
+   "last": 32119
+}
+```
+- **numbers_available**, folios disponibles para el tipo de documento (Integer).
+- **last**, ultimo folio utilizado para el tipo de documento (integer).
