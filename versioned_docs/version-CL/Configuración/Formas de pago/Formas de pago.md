@@ -360,6 +360,49 @@ Para crear una forma de pago, se debe enviar un JSON con la siguiente estructura
   "maxCheck":3
 }
 ```
+#### Para utilizar la forma de pago "cheque" en un documento se debe enviar una estructura como esta:
+```json
+"payments": [
+        {
+            "paymentTypeId": 5,
+            "amount": 20000,
+            "recordDate":1695308760,
+            "checkDate": "2023-11-06",
+            "checkNumber": 123456,
+            "contactDetails": [
+                {
+                    "dynamicAttributeId": 2,
+                    "description":"",
+                    "detailAtributeContact": [
+                        {
+                            "detailAtributeId": 30
+                        }
+                    ]
+                },
+                {
+                    "dynamicAttributeId":3,
+                    "description":"123456"
+                }
+
+            ]
+        }
+    ]
+
+```
+| Atributo      | Descripción |
+| **paymentTypeId**   | ID de la forma de pago Cheque   |
+| **amount**   | Monto del cheque   |
+| **recordDate**   | Fecha del pago (formato Unix)   |
+| **checkNumber**   | Numero del cheque (Este dato será visible en ‘’Buscar / Enviar’’, al consultar por la forma de pago del documento generado)   |
+| **checkDate**   | Fecha del Cheque (para efectos de reporte ‘Cheque por cobrar’. 
+El formato es: AÑO-MES-DIA)   |
+| **contactDetails**   | Dentro de este arreglo, se deben insertar los datos dentro de los atributos ‘Banco’ y ‘Número’, apuntando siempre al ID de cada uno de ellos.   |
+| **dynamicAttributeId**   | ID del atributo en cuestión (banco o número)   |
+| **description**   | Opcional en caso de no ser un campo tipo texto o numero.   |
+| **detailAtributeContact**   | Si el atributo es del tipo ‘Combobox’, se debe usar este arreglo adicional para definir la opción dentro del atributo tipo combobox. En este caso, para el atributo ‘Banco’, se usa para definir ‘el banco’ al cual corresponde el cheque.   |
+| **detailAtributeId**   | ID de la opción dentro del atributo tipo combobox (en este caso, el banco).   |
+
+
 #### Si es abono de cliente.
 ```json
 {
